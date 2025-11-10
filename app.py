@@ -503,7 +503,16 @@ if df['Training Issues'].apply(len).sum() > 0:
             title="Training Issues Identified",
             labels={'value': 'Frequency'},
             color=issues_series.values,
-            color_continuous_scale='Reds'
+            color_continuous_scale=['#ef4444', '#f59e0b', '#3b82f6', '#22c55e']
+        )
+        fig_issues.update_layout(
+            plot_bgcolor='white',
+            paper_bgcolor='white',
+            showlegend=False,
+            font=dict(color='#1e293b'),
+            title_font=dict(color='#1e293b'),
+            xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+            yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
         )
         st.plotly_chart(fig_issues, use_container_width=True)
 
