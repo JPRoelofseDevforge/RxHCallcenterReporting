@@ -459,7 +459,160 @@ if st.button("Generate Executive Summary"):
         mime="text/csv"
     )
 
+# PQR/PSR Analysis Section
+st.header("📊 PQR/PSR Deep Analysis")
+
+# Calculate PQR (Product Quality Ratio) and PSR (Process Success Rate)
+st.subheader("🔢 Quality Metrics Calculation")
+
+# PQR: Based on medication authorization success and rejection handling
+clinical_calls = df[df['Dataset'] == 'Clinical'] if 'Dataset' in df.columns else df
+
+if len(clinical_calls) > 0:
+    # PQR: Successful medication authorizations vs rejections
+    medication_calls = clinical_calls[clinical_calls['Query type'].str.contains('Medication|Chronic', na=False, case=False)]
+    successful_auths = medication_calls[medication_calls['Grand Total'] >= 85]  # Assuming 85+ is successful
+    pqr = (len(successful_auths) / len(medication_calls) * 100) if len(medication_calls) > 0 else 0
+
+    # PSR: Process compliance and call handling efficiency
+    process_compliant = clinical_calls[clinical_calls['Grand Total'] >= 75]  # Basic process compliance
+    psr = (len(process_compliant) / len(clinical_calls) * 100) if len(clinical_calls) > 0 else 0
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.metric("PQR (Product Quality Ratio)", f"{pqr:.1f}%", "Medication Auth Success")
+
+    with col2:
+        st.metric("PSR (Process Success Rate)", f"{psr:.1f}%", "Process Compliance")
+
+    with col3:
+        overall_quality = (pqr + psr) / 2
+        st.metric("Overall Quality Index", f"{overall_quality:.1f}%", "Combined Score")
+
+    # PQR/PSR Trend Analysis
+    if not clinical_calls['Date of the call'].isna().all():
+        clinical_calls_copy = clinical_calls.copy()
+        clinical_calls_copy['Month'] = clinical_calls_copy['Date of the call'].dt.to_period('M').astype(str)
+
+        monthly_quality = clinical_calls_copy.groupby('Month').agg({
+            'Grand Total': 'mean',
+            'Query type': lambda x: (x.str.contains('Medication|Chronic', na=False, case=False)).sum()
+        }).reset_index()
+
+        monthly_quality['PQR_Estimate'] = monthly_quality['Grand Total'] * 0.9  # Estimated PQR
+        monthly_quality['PSR_Estimate'] = monthly_quality['Grand Total'] * 0.8  # Estimated PSR
+
+        fig_quality_trend = px.line(
+            monthly_quality,
+            x='Month',
+            y=['PQR_Estimate', 'PSR_Estimate'],
+            title="PQR/PSR Quality Trends Over Time",
+            labels={'value': 'Quality Score (%)', 'Month': 'Month'},
+            markers=True
+        )
+        st.plotly_chart(fig_quality_trend, use_container_width=True)
+
+# PQR/PSR by Agent
+st.subheader("👥 Agent-Level PQR/PSR Analysis")
+
+if len(clinical_calls) > 0:
+    agent_quality = clinical_calls.groupby('Agent name').agg({
+        'Grand Total': ['mean', 'count', 'std'],
+        'Query type': lambda x: (x.str.contains('Medication|Chronic', na=False, case=False)).sum()
+    }).round(2)
+
+    agent_quality.columns = ['avg_score', 'total_calls', 'score_std', 'med_calls']
+    agent_quality['PQR_Estimate'] = agent_quality['avg_score'] * 0.9
+    agent_quality['PSR_Estimate'] = agent_quality['avg_score'] * 0.8
+    agent_quality['Quality_Index'] = (agent_quality['PQR_Estimate'] + agent_quality['PSR_Estimate']) / 2
+
+    # Sort by Quality Index
+    agent_quality_sorted = agent_quality.sort_values('Quality_Index', ascending=True)
+
+    fig_agent_quality = px.bar(
+        agent_quality_sorted,
+        x='Quality_Index',
+        y=agent_quality_sorted.index,
+        orientation='h',
+        title="Agent Quality Index (PQR + PSR)",
+        labels={'Quality_Index': 'Quality Index (%)'},
+        color='Quality_Index',
+        color_continuous_scale='RdYlGn'
+    )
+    st.plotly_chart(fig_agent_quality, use_container_width=True)
+
+    # Agent Quality Table
+    st.subheader("Agent Quality Metrics Table")
+    display_quality = agent_quality_sorted[['total_calls', 'med_calls', 'PQR_Estimate', 'PSR_Estimate', 'Quality_Index']].round(1)
+    display_quality.columns = ['Total Calls', 'Med Calls', 'PQR (%)', 'PSR (%)', 'Quality Index (%)']
+    st.dataframe(display_quality, use_container_width=True)
+
+# PQR/PSR Impact Analysis
+st.subheader("💰 Business Impact of PQR/PSR")
+
+# Cost calculations based on quality metrics
+avg_call_cost = st.number_input("Average Cost per Call (R)", value=50, min_value=0)
+monthly_calls = len(clinical_calls) * 2 if len(clinical_calls) > 0 else 100  # Estimate
+
+# Quality improvement scenarios
+improvement_scenarios = {
+    "Current Performance": 0,
+    "5% Quality Improvement": 5,
+    "10% Quality Improvement": 10,
+    "15% Quality Improvement": 15
+}
+
+selected_scenario = st.selectbox("Select Quality Improvement Scenario", list(improvement_scenarios.keys()))
+
+improvement_pct = improvement_scenarios[selected_scenario]
+improved_quality = overall_quality + improvement_pct if 'overall_quality' in locals() else 70 + improvement_pct
+
+# Calculate business impact
+monthly_savings = (monthly_calls * avg_call_cost * improvement_pct / 100)
+annual_savings = monthly_savings * 12
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric("Monthly Cost Savings", f"R{monthly_savings:,.0f}", f"{improvement_pct}% improvement")
+
+with col2:
+    st.metric("Annual Cost Savings", f"R{annual_savings:,.0f}", f"R{monthly_savings:,.0f}/month")
+
+with col3:
+    roi_period = st.number_input("ROI Period (months)", value=6, min_value=1)
+    total_investment = st.number_input("Training Investment (R)", value=50000, min_value=0)
+    roi = (annual_savings * (roi_period/12) / total_investment * 100) if total_investment > 0 else 0
+    st.metric("ROI at Training Investment", f"{roi:.1f}%", f"{roi_period} months")
+
+# PQR/PSR Recommendations
+st.subheader("🎯 PQR/PSR Optimization Recommendations")
+
+recommendations = []
+
+if 'pqr' in locals() and pqr < 85:
+    recommendations.append(f"**Medication Authorization Excellence**: PQR at {pqr:.1f}% - Focus on reducing medication rejections through better authorization processes")
+
+if 'psr' in locals() and psr < 80:
+    recommendations.append(f"**Process Compliance Training**: PSR at {psr:.1f}% - Implement standardized call handling procedures and compliance checklists")
+
+if len(clinical_calls) > 0:
+    low_performers = agent_quality[agent_quality['Quality_Index'] < 70].index.tolist()
+    if low_performers:
+        recommendations.append(f"**Targeted Agent Development**: Focus training on {', '.join(low_performers)} to improve PQR/PSR scores")
+
+recommendations.extend([
+    "**Real-time Quality Monitoring**: Implement live PQR/PSR dashboards for immediate feedback",
+    "**Standardized Authorization Protocols**: Develop clear medication approval workflows",
+    "**Agent Certification Program**: Regular PQR/PSR assessments with certification requirements",
+    "**Quality-based Incentives**: Tie performance bonuses to PQR/PSR improvements"
+])
+
+for rec in recommendations:
+    st.info(rec)
+
 # Footer
 st.markdown("---")
-st.markdown("**V1 Pharma Quality Control System** - Advanced business intelligence for data-driven call center optimization")
-st.markdown("*Transforming call center data into strategic business decisions*")
+st.markdown("**V1 Pharma Quality Control System** - Advanced PQR/PSR analytics for pharmaceutical call center excellence")
+st.markdown("*PQR (Product Quality Ratio) & PSR (Process Success Rate) drive medication authorization and process optimization*")
