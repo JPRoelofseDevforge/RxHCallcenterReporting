@@ -1,0 +1,1063 @@
+﻿"Agent name","Grand Total","Summary of call","AI Analysis","Date of the call","Date of the evaluation","Duration of the call","Call direction","Query type","Reference number","Member/Practice number","1.1 Agent clearly introducing themselves and Organization","1.  Total Greeting","2.1 Date of birth verification","2.2 Cell phone number verification (on inbound)","2.  Total Verification | Did Agent verify the following?| POPIA compliance","3.1 Explaining purpose of the call","3.2 Checking if it’s a convenient time to speak","3.3 Correct hold procedure","3.4 Mention disclaimer","3. Total Call Management","4.1 No use of filler words & displaying interest in the caller.","4.2 Tone of voice","4. Total Professionalism","5.1 Clear enquiry notes captured on DMP  & Nil abbreviations","5. Total Notes","6.1 Email sent to Medipost and Lonmin","6.2 Chronic emailer","6. Total Communication","7.1 Education where necessary","7. Total Education where necessary","8.1 Open cases on workflow","8.2 Update registration","8.3 Update provider","8.4 Attach documents and","8.5 Capture pathology","8.6 HIV programme update/TB/ART/PMTCT","8.7  Communication","8.8  Notes","8.9 Regimen update","8.10 MIP and Medicine authorization","8. Total Workflow","9.1 Completed mandatory fields","9. Total Call logging on MIP","10.1 Offering further assistance","10.2 Issue reference number","10.3 Refer to Post Call Survey (not yet function)","10.4 Professional closing of the day","10.Total Call Closure","11. Total Exception management","11.1 High cost cases referred to Team leader","5.2 Summary of the call","Created","Created By"
+"Iantharan Ramadoo","100","Agent Called Mediscor, member is at the pharmacy soon to be going to work underground Dr would for the member to get Atorvastin. Mediscor agent promised to ensure the request is put through to the Mediscor pharmacy department. ",,"10/31/2025","10/31/2025","03:51","Post Call","Chronic registration","NA","210453-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","11/3/2025 5:36 AM","Phumeza Buzani"
+"Mahlodi Tema","100","Dr called in requesting assistance with telephonic registration. Call was put through to agent by Thembi.  Agent registered the member. ",,"10/30/2025","10/31/2025","04:51","Post Call","Chronic registration","Offered","219190-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","11/3/2025 4:51 AM","Phumeza Buzani"
+"Germinah Rakoma","100","Member called in regarding an unpaid pathology account. Agent informed the member that they need to request the account from Lancet and forward it to info@umvuzohealtho.co.za",,"10/29/2025","10/31/2025","06:01","Post Call","Pathology/Script","445549792","134651-00","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","11/3/2025 1:40 AM","Phumeza Buzani"
+"Iantharan Ramadoo","95","Agent called Mediscor requesting assistance with lifting of the 26 days rule as member is going on leave.",,"10/28/2025","10/28/2025",,"Post Call","Chronic registration","NA","194712-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","0",,"5","10/28/2025 3:33 AM","Phumeza Buzani"
+"Mahlodi Tema","0","Agent called the pharmacy requesting assistance with a script. The pharmacist requested the member's information, could not find them on the system and mentioned that they have other practices.
+
+Call not logged  and no summary of the intervention loaded.",,"10/28/2025","10/28/2025","03:33","Post Call","Chronic registration","NA","208805-0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","10/28/2025 3:16 AM","Phumeza Buzani"
+"Germinah Rakoma","98","Cyril from the Dr's rooms, called in following up on member's eye injection. Agent informed the caller that there's an auth for the medication and it was already claimed for October. The caller was adamant that they want to claim for December now in October. 
+
+Please remember to request the caller to rate your services.",,"10/23/2025","10/28/2025","07:51","Post Call","Medication rejection","445544168","163580-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","0","2.5","8","5","5","5","10/28/2025 3:02 AM","Phumeza Buzani"
+"Iantharan Ramadoo","100","Agent called Mediscor regarding a member who is going on leave and requests the 26 days block to be lifted. Block was lifted.",,"10/16/2025","10/20/2025","07:27","Post Call","Chronic registration","NA","196707-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/20/2025 1:20 AM","Phumeza Buzani"
+"Mahlodi Tema","100","Member's sone following up on his mother's chronic medication. Agent informed the caller that only a script that was received was for the hypertension,  no b24 meds, informed him of the documents required and confirmed her email address.. ",,"10/14/2025","10/20/2025","27:43","Post Call","Chronic registration","445534025","172253-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/20/2025 1:08 AM","Phumeza Buzani"
+"Germinah Rakoma","100","Dr Mojapelo calling due to abnormal pathology results and would like to discuss treatment change. Member has renal impair",,"10/15/2025","10/19/2025","06:02","Post Call","Chronic registration","445536041","144534-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/20/2025 12:15 AM","Phumeza Buzani"
+"Iantharan Ramadoo","100","Agent called Mediscor to get assistance with an advanced supply. Block was lifted.","<p>1. Call Opening & Member Verification
+
+- The summary does not provide details on how the call was opened or if member verification was conducted.
+- No information on greeting or introduction by the agent.
+- Lack of clarity on whether the member’s identity was confirmed before proceeding.
+
+2. Member Engagement & Education
+
+- No evidence of member engagement or education in the summary.
+- The call appears to be focused on an internal process rather than direct member interaction.
+- No information on explaining the process or next steps to the member.
+
+3. Information Gathering & Active Listening
+
+- The summary does not indicate any information gathering from the member.
+- No signs of active listening or probing questions.
+- The call seems to be a straightforward request to Mediscor without member input.
+
+4. System Usage & Documentation
+
+- Agent contacted Mediscor to resolve an advanced supply block, indicating use of external system or resource.
+- The block was successfully lifted, showing effective system navigation or escalation.
+- No details on documentation of the call or updates made in internal systems.
+
+5. Clinical Judgement & Escalation
+
+- The agent appropriately escalated the issue to Mediscor for assistance.
+- No clinical judgement details are provided in the summary.
+- The escalation resulted in resolution, indicating correct handling of the situation.
+
+6. Compliance & Risk
+
+- No compliance issues or risks are mentioned in the summary.
+- The call appears to follow protocol by seeking assistance to lift the block.
+- Lack of information on adherence to SOPs related to member verification or documentation.
+
+7. Communication Style & Empathy
+
+- The summary does not provide insight into the agent’s communication style or empathy.
+- No mention of tone, clarity, or rapport with the member.
+- Unable to assess empathy due to limited information.
+
+9. Closing & Continuity of Care
+
+- No information on how the call was closed.
+- No mention of confirming next steps or follow-up with the member.
+- Continuity of care aspects are not addressed in the summary.
+
+Summary
+
+The call appears to be a brief, task-focused interaction where the agent contacted Mediscor to resolve an advanced supply block. While the issue was successfully resolved, the summary lacks details on member verification, engagement, communication style, and documentation. There is no evidence of clinical judgement beyond escalation, and compliance with SOPs related to member interaction cannot be assessed. Training may be needed to ensure thorough member verification, active engagement, clear communication, and proper documentation during calls. Overall, the call seems effective in resolving the immediate issue but lacks comprehensive member-centered practices.</p>","10/7/2025","10/13/2025","10:33","Post Call","Chronic registration","NA","236156-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/13/2025 12:58 AM","Phumeza Buzani"
+"Mahlodi Tema","100","Member call regarding his medication that is rejecting. Agent advised him to forward the script to Mediscor.","<p>1. Call Opening & Member Verification
+
+- The summary does not specify if the agent properly opened the call or greeted the member.
+- There is no mention of member verification steps being completed.
+- Lack of detail on how the call was initiated or if member identity was confirmed.
+
+2. Member Engagement & Education
+
+- The agent responded to the member’s concern about medication rejection.
+- The agent advised the member to forward the prescription to Mediscor, indicating some level of guidance.
+- No further education or explanation about the medication issue or next steps was noted.
+
+3. Information Gathering & Active Listening
+
+- The summary indicates the member raised an issue about medication rejection.
+- It is unclear if the agent asked clarifying questions to fully understand the problem.
+- No evidence of active listening techniques or probing for additional relevant information.
+
+4. System Usage & Documentation
+
+- The summary does not mention if the agent documented the call details or updated any system records.
+- No indication of system tools being used to verify medication status or member information.
+- Lack of information on whether the agent followed SOPs for documentation.
+
+5. Clinical Judgement & Escalation
+
+- The agent advised forwarding the script to Mediscor, which may be appropriate escalation.
+- No mention of clinical assessment or further evaluation of the member’s medication issue.
+- It is unclear if the agent recognized any urgent clinical concerns requiring immediate escalation.
+
+6. Compliance & Risk
+
+- No information on adherence to SOPs or regulatory compliance during the call.
+- No indication of risk assessment or mitigation related to the medication rejection.
+- The summary does not highlight any compliance issues or potential risks.
+
+7. Communication Style & Empathy
+
+- The summary does not provide details on the agent’s tone, empathy, or communication style.
+- It is unclear if the agent demonstrated understanding or reassurance to the member.
+- No mention of rapport building or personalized communication.
+
+9. Closing & Continuity of Care
+
+- The call closure is not described; it is unknown if the agent summarized next steps or confirmed member understanding.
+- No indication of scheduling follow-up or providing additional resources.
+- Lack of information on ensuring continuity of care after the call.
+
+Summary
+
+The call summary is very brief and lacks detailed information to fully assess the quality of the interaction. The agent addressed the member’s concern by advising to forward the prescription to Mediscor, which suggests some level of appropriate response. However, there is insufficient evidence of thorough member verification, active listening, comprehensive education, documentation, or empathetic communication. The absence of details on compliance with SOPs and call closure steps indicates potential training needs in these areas. Overall, the call appears to have been handled at a basic level but would benefit from enhanced engagement, documentation, and adherence to protocols to ensure quality and continuity of care.</p>","10/8/2025","10/12/2025","06:01","Post Call","Medication rejection","Offered","224226-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/13/2025 12:45 AM","Phumeza Buzani"
+"Germinah Rakoma","100","Phuthi from the Dr's rooms requesting assistance with the member's b24 chronic medication that is rejecting. The rooms sent through the pathology report. Agent informed Phuthi that an updated script is required.","<p>1. Call Opening & Member Verification
+
+- The call was initiated by Phuthi from the doctor's rooms, indicating a professional and relevant caller.
+- There is no explicit mention of member verification steps being performed.
+- The agent quickly identified the purpose of the call related to the member's chronic medication.
+
+2. Member Engagement & Education
+
+- The agent informed Phuthi that an updated prescription is required, providing clear guidance.
+- There is no indication of further education or explanation about the medication or process.
+- No evidence of engaging the caller beyond the immediate issue.
+
+3. Information Gathering & Active Listening
+
+- The agent acknowledged receipt of the pathology report sent by the doctor's rooms.
+- The agent identified the issue with the member's b24 chronic medication rejecting.
+- Limited information gathering beyond confirming the need for an updated script.
+
+4. System Usage & Documentation
+
+- The summary does not specify if the agent used the system effectively to check medication status.
+- No mention of documentation of the call details or pathology report in the system.
+- It is unclear if the agent updated any records or escalated the issue in the system.
+
+5. Clinical Judgement & Escalation
+
+- The agent correctly identified that an updated prescription is required, showing appropriate clinical judgement.
+- No escalation or referral to clinical staff is mentioned.
+- The agent did not provide alternative solutions or next steps beyond the script update.
+
+6. Compliance & Risk
+
+- The agent adhered to protocol by requesting an updated script before proceeding.
+- No compliance breaches or risk factors are noted in the summary.
+- The call appears to follow standard operating procedures regarding medication authorization.
+
+7. Communication Style & Empathy
+
+- The communication was clear and professional.
+- There is no indication of empathy or rapport-building with the caller.
+- The interaction seems transactional and focused solely on resolving the issue.
+
+9. Closing & Continuity of Care
+
+- The call ended with clear instructions about the need for an updated script.
+- No mention of confirming next steps or follow-up actions.
+- Continuity of care could be improved by advising on how to proceed after obtaining the updated script.
+
+Summary
+
+The call was concise and focused on resolving a medication authorization issue. The agent demonstrated appropriate clinical judgement by requesting an updated prescription and communicated clearly with the caller. However, there was limited member engagement, minimal information gathering, and no evidence of empathy or rapport-building. System usage and documentation details are unclear, and there was no mention of escalation or follow-up planning. Training could focus on enhancing active listening, member engagement, documentation practices, and ensuring continuity of care through clear next steps and follow-up advice. Overall, the call met basic compliance and procedural requirements but could be improved for a more comprehensive and member-centered approach.</p>","10/8/2025","10/10/2025","11:23","Post Call","Medication rejection","Offered","217309-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/10/2025 6:26 AM","Phumeza Buzani"
+"Iantharan Ramadoo","100","Member is at the Satellite office. He was hijacked, belongings  with meds were taken. Agent called Mediscor, requires assistance with overriding the 26 days rule.","<p>1. Call Opening & Member Verification
+
+- The call opening is not explicitly described; no details on greeting or verification process.
+- Member location is identified (Satellite office), indicating some level of verification.
+- No mention of confirming member identity or security questions.
+
+2. Member Engagement & Education
+
+- Limited engagement noted; focus is on immediate issue resolution.
+- No evidence of educating the member about policies or procedures.
+- No proactive discussion about medication management or safety.
+
+3. Information Gathering & Active Listening
+
+- Agent gathered key information about the hijacking and loss of belongings including meds.
+- Active listening implied by understanding the need to override the 26 days rule.
+- No further probing or detailed questioning documented.
+
+4. System Usage & Documentation
+
+- Agent contacted Mediscor for assistance, showing use of external system/resources.
+- No details on documentation of the incident or member interaction.
+- No mention of updating member records or follow-up actions in the system.
+
+5. Clinical Judgement & Escalation
+
+- Agent recognized the need to override the 26 days rule, indicating some clinical judgment.
+- Escalation to Mediscor suggests appropriate handling of an exception.
+- No mention of clinical advice or further escalation to healthcare professionals.
+
+6. Compliance & Risk
+
+- The situation involves a risk (hijacking and loss of medication), but no mention of risk mitigation steps.
+- Compliance with SOPs regarding medication override is implied but not detailed.
+- No documentation of adherence to privacy or security protocols during the call.
+
+7. Communication Style & Empathy
+
+- The summary does not provide information on tone or empathy expressed by the agent.
+- No evidence of reassurance or emotional support to the member after a traumatic event.
+- Communication appears task-focused without noted warmth or rapport building.
+
+9. Closing & Continuity of Care
+
+- No information on call closing or confirmation of next steps.
+- No mention of scheduling follow-up or providing additional resources.
+- Continuity of care considerations are not documented.
+
+Summary
+
+The call summary indicates that the agent effectively identified the member’s urgent need related to a hijacking and medication loss and appropriately sought assistance from Mediscor to override the 26 days rule. However, the notes lack detail on member verification, empathetic communication, comprehensive information gathering, and documentation. There is no evidence of educating the member or ensuring continuity of care. Training could focus on enhancing member engagement, empathy, thorough documentation, and adherence to SOPs for verification and risk management. Overall, the call appears to address the immediate issue but misses opportunities for a more supportive and compliant interaction.</p>","9/30/2025","10/6/2025","06:07","Post Call","Chronic registration","NA","210665-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/6/2025 6:29 AM","Phumeza Buzani"
+"Mahlodi Tema","100","Member calling regarding her rejecting medication that she has been on long term. Agent noted that the medication is authorized, motivation was received the manager is working on the authorization of the medication. ","<p>1. Call Opening & Member Verification
+
+- The call summary does not specify if the agent properly opened the call or verified the member’s identity.
+- No mention of greeting or confirmation of member details.
+- Verification process is unclear or not documented.
+
+2. Member Engagement & Education
+
+- The agent acknowledged the member’s concern about rejecting long-term medication.
+- Limited evidence of education provided to the member about the medication or reasons for authorization.
+- No indication of motivational support or addressing member’s concerns in detail.
+
+3. Information Gathering & Active Listening
+
+- The agent noted the member’s issue with medication rejection.
+- It is unclear if the agent probed further to understand the member’s reasons or concerns.
+- Active listening is implied but not explicitly documented.
+
+4. System Usage & Documentation
+
+- The agent documented that the medication is authorized and motivation was received.
+- Mention of manager working on authorization indicates some follow-up documentation.
+- No details on system entries or completeness of documentation.
+
+5. Clinical Judgement & Escalation
+
+- The agent recognized the medication authorization status.
+- Escalation to the manager for authorization issues was noted.
+- No clinical advice or judgement beyond authorization status is mentioned.
+
+6. Compliance & Risk
+
+- The agent followed protocol by noting authorization and involving a manager.
+- No indication of non-compliance with SOPs.
+- Risk related to medication rejection is acknowledged but not fully addressed.
+
+7. Communication Style & Empathy
+
+- The summary does not provide enough detail to assess tone or empathy.
+- The agent appears responsive to the member’s issue.
+- No explicit mention of empathetic statements or reassurance.
+
+9. Closing & Continuity of Care
+
+- The summary does not specify how the call was closed.
+- Follow-up action by the manager is noted, indicating continuity of care.
+- No mention of confirming next steps or member understanding before ending the call.
+
+Summary
+
+The call appears to have addressed the member’s concern about medication rejection with appropriate documentation and escalation to a manager. However, the summary lacks detail on member verification, education, active listening, and empathetic communication. There is limited evidence of thorough information gathering or clear closing procedures. Training could focus on enhancing member engagement, documentation completeness, and communication skills to ensure compliance with SOPs and improve member experience.</p>","10/6/2025","10/6/2025","10:22","Post Call","Chronic registration","Offered","142844-10","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/6/2025 5:56 AM","Phumeza Buzani"
+"Germinah Rakoma","100","Dr's rooms calling to confirm the bloods required by the scheme. Agent confirmed practice and member details, gave feedback to the provider for reasons the bloods are requested. Call put through to the Disease management department.
+
+
+","<p>1. Call Opening & Member Verification
+
+- Agent confirmed the practice details.
+- Agent verified member details.
+- Proper identification of caller and purpose was established.
+
+2. Member Engagement & Education
+
+- Agent provided feedback to the provider regarding reasons for blood tests.
+- Limited direct member engagement noted in the summary.
+- No detailed member education mentioned.
+
+3. Information Gathering & Active Listening
+
+- Agent gathered information about blood tests required by the scheme.
+- Listened to the doctor's room inquiry to confirm details.
+- No indication of probing or clarifying questions beyond initial confirmation.
+
+4. System Usage & Documentation
+
+- Call was appropriately routed to the Disease Management department.
+- No explicit mention of documentation during or after the call.
+- System usage for verification and call transfer implied but not detailed.
+
+5. Clinical Judgement & Escalation
+
+- Agent recognized the need to escalate the call to the Disease Management department.
+- Provided relevant feedback to the provider based on scheme requirements.
+- No clinical decisions made by the agent, appropriate escalation observed.
+
+6. Compliance & Risk
+
+- Verification steps followed to confirm practice and member details.
+- No compliance issues or risks identified in the summary.
+- Call handling appears aligned with standard operating procedures.
+
+7. Communication Style & Empathy
+
+- Communication was clear and professional as per the summary.
+- Feedback was given to the provider, indicating effective communication.
+- No explicit mention of empathy or rapport-building with the member.
+
+9. Closing & Continuity of Care
+
+- Call was effectively transferred to the appropriate department for follow-up.
+- Continuity of care maintained by routing to Disease Management.
+- No mention of summarizing the call or confirming next steps with the member.
+
+Summary
+
+The call was handled efficiently with proper verification and clear communication. The agent confirmed necessary details and provided relevant feedback to the provider before transferring the call to the Disease Management department, ensuring continuity of care. However, the summary indicates limited direct engagement or education with the member, and no explicit documentation or empathy elements were noted. Training could focus on enhancing member engagement and ensuring thorough documentation during calls. Overall, the call appears compliant with SOPs and appropriately managed.</p>","10/2/2025","10/6/2025","14:58","Post Call","Pathology/Script","NA","161325-10","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","10/6/2025 4:56 AM","Phumeza Buzani"
+"Iantharan Ramadoo","99","Agent requesting medication advance for a member who is going on leave. Agent from Mediscor promised to request assistance from JOhannes regarding the advance and call cut off.
+
+Please remember to mention that all calls are recorded.","<p>1. Call Opening & Member Verification
+
+- The call opening details are not explicitly mentioned in the summary.
+- No information on member verification process is provided.
+- Reminder to mention that all calls are recorded was noted but not confirmed if it was done.
+
+2. Member Engagement & Education
+
+- The agent is proactive in requesting medication advance for the member.
+- No evidence of educating the member about the process or medication.
+- No mention of engaging the member in discussion or addressing concerns.
+
+3. Information Gathering & Active Listening
+
+- The agent identified the member’s need for medication advance due to leave.
+- No detailed information gathering or active listening noted in the summary.
+- No indication of clarifying or confirming member’s needs beyond the medication advance request.
+
+4. System Usage & Documentation
+
+- The agent promised to request assistance from Johannes, indicating some coordination.
+- No explicit mention of system usage or documentation during the call.
+- No confirmation if the call details or medication advance request were documented properly.
+
+5. Clinical Judgement & Escalation
+
+- The agent escalated the request to Johannes for assistance, showing appropriate escalation.
+- No clinical judgement details are provided in the summary.
+- No indication of assessing clinical risks or member’s health status.
+
+6. Compliance & Risk
+
+- Reminder to mention call recording suggests awareness of compliance requirements.
+- No confirmation if compliance steps were followed during the call.
+- No risk assessment or mitigation actions noted.
+
+7. Communication Style & Empathy
+
+- The summary does not provide information on the agent’s tone or empathy.
+- No evidence of empathetic communication or reassurance to the member.
+- Communication appears transactional based on the summary.
+
+9. Closing & Continuity of Care
+
+- The call cut off was mentioned but no details on proper call closing.
+- No information on confirming next steps or follow-up with the member.
+- Continuity of care depends on the promised assistance from Johannes, but no confirmation of member notification.
+
+Summary
+
+The call appears to be focused on facilitating a medication advance request for a member going on leave, with the agent coordinating internally for assistance. However, the summary lacks details on member verification, engagement, education, and documentation. Compliance reminders are noted but not confirmed as executed. There is limited evidence of active listening, empathy, or clinical judgement. Training could focus on improving member engagement, thorough information gathering, documentation practices, and ensuring compliance steps such as call recording notification are consistently followed. Overall, the call seems functional but could benefit from enhanced communication and procedural adherence to improve quality and member experience.</p>","9/23/2025","9/25/2025","09:29","Post Call","Chronic registration","NA","199466-0","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/25/2025 4:53 AM","Phumeza Buzani"
+"Mahlodi Tema","100","Nomvuzo following up on an appliance application for dependent 10. Request is still pending. Agent to follow up with Dischem.","<p>1. Call Opening & Member Verification
+
+- The call summary does not provide details on how the call was opened or if member verification was conducted.
+- No mention of greeting or confirming member identity.
+- Lack of information on initial rapport building.
+
+2. Member Engagement & Education
+
+- The summary indicates a follow-up on an appliance application, suggesting some level of member engagement.
+- No evidence of education provided to the member about the process or next steps.
+- Limited interaction details to assess engagement quality.
+
+3. Information Gathering & Active Listening
+
+- The agent identified the specific issue: appliance application for dependent 10.
+- No indication of probing questions or clarifications to gather more information.
+- Active listening cannot be confirmed due to limited summary details.
+
+4. System Usage & Documentation
+
+- The agent documented the status of the request as pending.
+- Action item noted: agent to follow up with Dischem.
+- No information on system navigation or data entry accuracy.
+
+5. Clinical Judgement & Escalation
+
+- No clinical judgement or escalation noted in the summary.
+- The issue appears administrative rather than clinical.
+- No indication of referral or escalation protocols being followed.
+
+6. Compliance & Risk
+
+- No compliance issues or risks identified from the summary.
+- No mention of adherence to SOPs or regulatory requirements.
+- Follow-up action aligns with procedural expectations.
+
+7. Communication Style & Empathy
+
+- The summary does not provide insight into the agent’s tone or empathy.
+- No evidence of reassurance or support to the member.
+- Communication style cannot be fully assessed.
+
+9. Closing & Continuity of Care
+
+- The agent committed to a follow-up action, supporting continuity of care.
+- No details on how the call was closed or if next steps were clearly communicated.
+- Lack of confirmation that member understood the follow-up plan.
+
+Summary
+
+The call appears to be a straightforward follow-up on a pending appliance application for a dependent. While the agent documented the issue and planned a follow-up with Dischem, the summary lacks detail on member verification, engagement, education, and communication style. There is no evidence of clinical judgement or escalation, which seems appropriate given the nature of the call. To improve, training could focus on enhancing member engagement, active listening, clear communication of next steps, and thorough documentation. Overall, the call seems compliant with basic procedural requirements but could benefit from more comprehensive interaction and communication practices.</p>","9/22/2025","9/25/2025",,"Post Call","Appliances","445513154","231684-10","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/25/2025 2:48 AM","Phumeza Buzani"
+"Germinah Rakoma","100","Simone querying payment of an appliance. Agent informed the provider that the next payment run for appliances will the 25 September and appliance was approved.","<p>1. Call Opening & Member Verification
+
+- The call summary does not specify if the agent properly opened the call with a greeting.
+- There is no mention of member verification steps being completed.
+- Lack of detail on how the agent confirmed the identity of the caller or member.
+
+2. Member Engagement & Education
+
+- The agent provided clear information regarding the payment schedule for the appliance.
+- The agent informed the member that the appliance was approved, which is relevant and helpful.
+- No additional education or explanation about the appliance or next steps was noted.
+
+3. Information Gathering & Active Listening
+
+- The summary indicates the agent understood the member’s query about payment.
+- There is no detail on whether the agent asked clarifying questions or confirmed understanding.
+- Active listening behaviors such as paraphrasing or empathy are not documented.
+
+4. System Usage & Documentation
+
+- The agent referenced the payment run date, suggesting access to system information.
+- It is unclear if the agent documented the call details or member query in the system.
+- No mention of use of any tools or resources to support the call.
+
+5. Clinical Judgement & Escalation
+
+- No clinical judgement or escalation was required or noted in this call.
+- The agent appropriately handled the query within their scope.
+- No indication of missed opportunities for escalation.
+
+6. Compliance & Risk
+
+- No compliance issues or risks are evident from the summary.
+- The agent provided accurate information about payment and approval.
+- No mention of adherence to SOPs or potential non-compliance.
+
+7. Communication Style & Empathy
+
+- The summary does not provide insight into the agent’s tone or empathy.
+- The agent communicated the information clearly and directly.
+- No evidence of personalized communication or rapport building.
+
+9. Closing & Continuity of Care
+
+- The summary does not mention how the call was closed.
+- No indication of confirming if the member had further questions or next steps.
+- Continuity of care or follow-up instructions were not documented.
+
+Summary
+
+The call was handled efficiently with the agent providing clear and accurate information regarding the appliance payment and approval status. However, the summary lacks detail on key quality assurance elements such as call opening, member verification, active listening, empathy, documentation, and call closing. These areas represent potential training needs to ensure full compliance with SOPs and to enhance member experience. Overall, the call appears compliant but would benefit from improved documentation and member engagement practices.</p>","9/22/2025","9/25/2025","07:01","Post Call","Chronic registration","445512976","158912-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/25/2025 2:20 AM","Phumeza Buzani"
+"Iantharan Ramadoo","100","Member struggling to claim medication at the pharmacy error message ""member not found on MIC"". Agent called Mediscor and spoke to Nana who promised to refer matter. ","<p>Summary of call
+
+Member struggling to claim medication at the pharmacy error message ""member not found on MIC"". Agent called Mediscor and spoke to Nana who promised to refer matter.
+
+Overall Impression of the call based on the notes
+
+The call appears to have been handled with an attempt to resolve the member's issue by contacting the relevant party (Mediscor). However, the summary is brief and lacks detail on follow-up actions or confirmation of resolution.
+
+Training issues identified
+
+• Lack of detailed documentation or follow-up steps in the call summary  
+• Possible need for training on handling system errors like ""member not found on MIC""  
+• Insufficient communication of next steps to the member  
+
+Business process issues identified
+
+• Error message ""member not found on MIC"" indicates a potential system or data issue  
+• Reliance on third-party (Mediscor) for resolution may delay problem-solving  
+• No clear process outlined for escalation or tracking of such issues  
+
+Behavioral issues identified
+
+• No behavioral issues are evident from the provided notes  
+
+Action Required
+
+• Investigate and resolve the ""member not found on MIC"" system error to prevent recurrence  
+• Implement a clear follow-up and communication process to keep members informed on issue status</p>","9/18/2025","9/19/2025","04:09","Post Call","Chronic registration","NA","237271-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/19/2025 12:25 AM","Phumeza Buzani"
+"Germinah Rakoma","76","Youlanda from the pharmacy calling regarding maternity vitamins. Agent informed her that the member is not yet registered. 
+
+Please mention disclaimer, avoid talking over the customer and capture DMP note.","<p>Summary of call
+
+Youlanda from the pharmacy calling regarding maternity vitamins. Agent informed her that the member is not yet registered.
+
+Please mention disclaimer, avoid talking over the customer and capture DMP note.
+
+Overall Impression of the call based on the notes
+
+The call appears to have been handled with basic information provided, but there were notable areas for improvement in communication and documentation.
+
+Training issues identified
+
+• Agent did not mention the required disclaimer.  
+• Agent talked over the customer, indicating a need for better communication skills.  
+• Agent failed to capture the DMP note as required.
+
+Business process issues identified
+
+• Lack of capturing DMP notes suggests a gap in following documentation procedures.  
+• Possible unclear guidelines on when and how to mention disclaimers.  
+• Registration status communication may need clearer protocols.
+
+Behavioral issues identified
+
+• Interrupting or talking over the customer reflects poor listening behavior.  
+• Insufficient attention to detail in capturing notes.  
+• Potential lack of empathy or patience during the call.
+
+Action Required
+
+• Provide training to the agent on proper call etiquette, including not talking over customers and mentioning disclaimers.  
+• Reinforce the importance of capturing DMP notes and following documentation protocols.</p>","9/15/2025","9/17/2025","04:12","Post Call","Medication rejection","445506677","231402-10","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","0","2.5","3","0","0","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","0","0","2.5","2.5","2.5","2.5","10","5","5","0","9/18/2025 11:21 PM","Phumeza Buzani"
+"Mahlodi Tema","94","Member querying unpaid pathology claims. Agent advised member to send to claims@umvuzo.co.za for reprocessing. 
+
+Please remember to mention the disclaimer, offer further assistance and issue the call reference number.","<p>Summary of call
+
+Member querying unpaid pathology claims. Agent advised member to send to claims@umvuzo.co.za for reprocessing. 
+
+Please remember to mention the disclaimer, offer further assistance and issue the call reference number.
+
+Overall Impression of the call based on the notes
+
+The call addressed the member's query about unpaid pathology claims by providing a clear instruction to send the claim to the specified email for reprocessing. However, the agent missed important procedural steps such as mentioning the disclaimer, offering further assistance, and providing the call reference number, which are essential for a complete and professional customer interaction.
+
+Training issues identified
+
+• Agent did not mention the required disclaimer during the call.  
+• Agent failed to offer further assistance to the member.  
+• Agent did not issue the call reference number to the member.  
+
+Business process issues identified
+
+• Lack of adherence to call handling protocols regarding disclaimers and call reference issuance.  
+• Potential gap in ensuring members receive complete information for follow-up.  
+• No indication of verification or confirmation of member details before advising.  
+
+Behavioral issues identified
+
+• Agent may have shown a lack of thoroughness in following call procedures.  
+• Possible insufficient engagement with the member by not offering further assistance.  
+• No evidence of proactive communication to enhance member experience.  
+
+Action Required
+
+• Provide refresher training to agents on call handling protocols, including disclaimers, offering assistance, and issuing call reference numbers.  
+• Implement monitoring to ensure compliance with business process standards during calls.</p>","9/16/2025","9/18/2025","06:35","Post Call","Chronic registration",,"146829-0","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","0","0","2.5","2.5","5","5","5","5","9/18/2025 6:47 AM","Phumeza Buzani"
+"Iantharan Ramadoo","99","Called Mediscor regarding an a biological, immunosuppressant for a member with multiple sclerosis. Member is not registered on according to Mediscor and condition is usually discussed by the clinical committee. Treatment not available in the state.","<p>Summary of call  
+Called Mediscor regarding an a biological, immunosuppressant for a member with multiple sclerosis. Member is not registered on according to Mediscor and condition is usually discussed by the clinical committee. Treatment not available in the state.
+
+Overall Impression of the call based on the notes  
+The call appears to be a straightforward inquiry about a specific treatment for a member with multiple sclerosis. The agent gathered relevant information from Mediscor but encountered limitations due to the member not being registered and the treatment not being available in the state. The call seems informative but highlights some procedural or system constraints.
+
+Training issues identified  
+• Possible need for better understanding of how to handle cases when members are not registered in external systems like Mediscor.  
+• Clarification on protocols for treatments that require clinical committee discussion.  
+• Guidance on communicating treatment availability restrictions based on state regulations.
+
+Business process issues identified  
+• Lack of registration of the member in Mediscor system, which may delay or complicate treatment approval.  
+• Treatment availability restrictions by state impacting service delivery.  
+• Clinical committee involvement required for certain conditions, potentially slowing decision-making.
+
+Behavioral issues identified  
+• None clearly identified from the notes.
+
+Action Required  
+• Review and improve member registration processes with external systems like Mediscor.  
+• Provide agents with clear guidelines on handling treatments requiring clinical committee review and state-specific availability.</p>","9/9/2025","9/15/2025","13:52","Post Call","Chronic registration","NA","137567-01","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/15/2025 11:27 PM","Phumeza Buzani"
+"Mahlodi Tema","100","Pharmacy following up on a chronic registration for the member. Agent informed the provider that the regimen is incomplete on the script that was received and the Dr's rooms was called and not reached. Request the provider to forward the updated script so that she can assist.
+
+Hats off on continued effort to excellence!!","<p>Summary of call  
+Pharmacy following up on a chronic registration for the member. Agent informed the provider that the regimen is incomplete on the script that was received and the Dr's rooms was called and not reached. Request the provider to forward the updated script so that she can assist.
+
+Hats off on continued effort to excellence!!
+
+Overall Impression of the call based on the notes  
+The call appears to be handled professionally with the agent actively following up on an incomplete prescription regimen. The agent communicated clearly with the provider and made efforts to resolve the issue by requesting an updated script. The positive comment indicates good effort and dedication.
+
+Training issues identified  
+• No explicit training issues are evident from the notes.  
+• The agent demonstrated appropriate communication and follow-up skills.  
+• No gaps in knowledge or procedure are indicated.
+
+Business process issues identified  
+• The prescription regimen was incomplete, indicating a possible issue in the initial prescription process.  
+• Difficulty reaching the doctor's office suggests potential communication or contact process inefficiencies.  
+• The need for updated scripts may indicate a gap in timely information flow between providers and pharmacy.
+
+Behavioral issues identified  
+• No behavioral issues are noted; the agent is commended for continued effort and professionalism.  
+• The agent maintained a proactive and courteous approach.  
+• No signs of negative behavior or attitude.
+
+Action Required  
+• Provider to forward the updated prescription script to complete the regimen.  
+• Review communication protocols to improve contact success with providers’ offices.</p>","9/15/2025","9/15/2025",,"Post Call","Chronic registration","Offered","191408-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/15/2025 6:35 AM","Phumeza Buzani"
+"Germinah Rakoma","100","Member forgot medication at home and far. He is concerned that he will not be able to claim medication. Agent advised him that he can go to Clicks at Kuruman mall as he is around Kuruman and medication will go through.
+
+Kudos to your commitment to excellence!!","<p>Summary of call
+
+Member forgot medication at home and far. He is concerned that he will not be able to claim medication. Agent advised him that he can go to Clicks at Kuruman mall as he is around Kuruman and medication will go through.
+
+Kudos to your commitment to excellence!!
+
+Overall Impression of the call based on the notes
+
+The call appears to have been handled effectively with the agent providing clear and helpful guidance to the member’s concern. The agent demonstrated good knowledge of the process and reassured the member appropriately. The positive note at the end suggests a commendable level of service.
+
+Training issues identified
+
+• No specific training issues are evident from the notes.  
+• The agent seems knowledgeable about alternative medication claim locations.  
+• No gaps in communication or process understanding are apparent.  
+
+Business process issues identified
+
+• No business process issues are indicated in the summary.  
+• The process for claiming medication at alternative locations seems to be functioning well.  
+• No delays or complications in the medication claim process are mentioned.  
+
+Behavioral issues identified
+
+• No behavioral issues are noted.  
+• The agent’s behavior appears professional and supportive.  
+• Positive reinforcement (“Kudos to your commitment to excellence!!”) suggests good morale and attitude.  
+
+Action Required
+
+• Continue to monitor and support agents in providing clear guidance on medication claims.  
+• Maintain recognition programs to encourage excellent service delivery.</p>","9/9/2025","9/15/2025","09:14","Post Call","Chronic registration","Offered","217629-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/15/2025 5:47 AM","Phumeza Buzani"
+"Iantharan Ramadoo","99","Member experiencing difficulty claiming the medication. No rejection noted on the system by the agent. Advised member to go back to the pharmacy to claim the medication and call back if she is experiencing medication. 
+
+Please remember to mention disclaimer.","<p>Summary of call
+
+Member experiencing difficulty claiming the medication. No rejection noted on the system by the agent. Advised member to go back to the pharmacy to claim the medication and call back if she is experiencing medication.
+
+Overall Impression of the call based on the notes
+
+The call appears to have been handled with basic assistance, but the resolution was incomplete as the member was advised to return to the pharmacy without a clear solution or further investigation. The agent did not identify any system rejection, but the member’s issue remains unresolved.
+
+Training issues identified
+
+• Agent did not verify or escalate the issue despite the member’s difficulty claiming medication.  
+• Lack of clear communication or guidance on next steps beyond advising the member to return to the pharmacy.  
+• Reminder to mention disclaimers was noted but not confirmed if applied during the call.  
+
+Business process issues identified
+
+• No system rejection noted, yet the member still experienced difficulty, indicating a possible gap in the process or system accuracy.  
+• Lack of a clear escalation or follow-up process when medication claims fail without system rejection.  
+• Insufficient support for members facing issues at the pharmacy level.  
+
+Behavioral issues identified
+
+• No explicit behavioral issues are evident from the notes.  
+• The agent’s approach was polite but lacked proactive problem-solving.  
+• No indication of empathy or reassurance to the member beyond basic instructions.  
+
+Action Required
+
+• Provide additional training to agents on handling unresolved medication claim issues and escalation protocols.  
+• Review and improve business processes to ensure system accuracy and support for members when claims fail without system rejection.</p>","9/2/2025","9/12/2025","04:56","Post Call","Medication rejection","N/A","209292-0","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/12/2025 1:35 AM","Phumeza Buzani"
+"Mahlodi Tema","99","Nadine from Bonela Medical Centre calling regarding vitamins covered by the scheme. Explained the vitamins covers for members who are registered for b24 programme.
+
+Please remember to mention the disclaimer, ","<p>Summary of call
+
+Nadine from Bonela Medical Centre calling regarding vitamins covered by the scheme. Explained the vitamins covers for members who are registered for b24 programme.
+
+Please remember to mention the disclaimer,
+
+Overall Impression of the call based on the notes
+
+The call was informative and addressed the inquiry about vitamin coverage under the scheme. However, there was a reminder needed to mention the disclaimer, indicating a slight oversight in communication completeness.
+
+Training issues identified
+
+• Need to consistently mention the disclaimer during calls  
+• Clarification on the specifics of the b24 programme coverage could be reinforced  
+• Emphasis on thorough communication to avoid missing important information  
+
+Business process issues identified
+
+• Lack of a prompt or checklist to ensure disclaimers are mentioned  
+• Possible gaps in the communication protocol regarding scheme coverage details  
+• Need for clearer guidelines on how to explain programme coverage to callers  
+
+Behavioral issues identified
+
+• Slight oversight in including all necessary information (disclaimer)  
+• No other behavioral issues clearly indicated from the notes  
+• N/A  
+
+Action Required
+
+• Provide training or reminders to staff to always mention the disclaimer during calls  
+• Review and update call scripts or processes to ensure all key information is communicated consistently</p>","9/2/2025","9/12/2025","14:24","Post Call","Chronic registration","445493909","145216-10","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/12/2025 1:01 AM","Phumeza Buzani"
+,"0",,,"9/12/2025","9/12/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/12/2025 12:25 AM","Raphael Mnisi"
+,"0",,,"9/12/2025","9/12/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/12/2025 12:25 AM","Raphael Mnisi"
+"Germinah Rakoma","99","Nadine from Bonela medical Centre following a member's script that was sent and member has not yet received medication. The script was not forwarded to Medipost. Agent promised to update the authorization, forward the script and request urgent delivery of medication.
+
+Please avoiding engaging with other personnel whilst on a call and speaking over the customer. ","<p>Summary of call
+
+Nadine from Bonela medical Centre following a member's script that was sent and member has not yet received medication. The script was not forwarded to Medipost. Agent promised to update the authorization, forward the script and request urgent delivery of medication.
+
+Please avoiding engaging with other personnel whilst on a call and speaking over the customer.
+
+Overall Impression of the call based on the notes
+
+The call involved addressing a medication delivery issue where the script was not forwarded as required. The agent took responsibility and promised corrective actions. However, there were behavioral concerns regarding the agent’s interaction style during the call.
+
+Training issues identified
+
+• Agent did not ensure the script was forwarded to Medipost as per process.  
+• Lack of clarity on the steps to update authorization and escalate urgent delivery.  
+• Need for reinforcement on proper call handling and communication protocols.
+
+Business process issues identified
+
+• Script forwarding to Medipost was missed, causing delay in medication delivery.  
+• No clear follow-up mechanism mentioned to confirm medication delivery after escalation.  
+• Potential gaps in coordination between medical centre and Medipost.
+
+Behavioral issues identified
+
+• Agent engaged with other personnel during the call, distracting from the customer interaction.  
+• Agent spoke over the customer, which can negatively impact customer experience.  
+• Lack of focus on maintaining professional communication etiquette during the call.
+
+Action Required
+
+• Provide training to the agent on call handling etiquette and communication skills.  
+• Review and reinforce the process for script forwarding and urgent medication delivery escalation.</p>","9/1/2025","9/11/2025","08:33","Post Call","Chronic registration","445492546","145216-10","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","10","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5","5","9/12/2025 12:09 AM","Phumeza Buzani"
+"Raphael Mnisi","0","Member is following up on a specialist auth referral form - specialist auth form not received. Resent to the members correct email address.
+Notes not recorded correctly - does not state the action you have taken to resolve the query. Notes does not correspond to what was discussed telephonically and does not ensure continuity of the flow.
+
+Verification of the members details not done and interjects while the member is explaining her query. Listen to the member attentively to gather all the information so that you don't have to ask questions the member again...","<p>Training issues identified
+
+• Notes were not recorded correctly and did not reflect the actions taken to resolve the query.  
+• Verification of member details was not performed during the call.  
+• Lack of attentive listening resulted in the need to ask the member repeated questions.  
+
+Business process issues identified
+
+• Specialist authorization form was not received initially, indicating a possible gap in the referral or communication process.  
+• Notes did not ensure continuity of the workflow, potentially impacting follow-up and case management.  
+• Resending the form to the correct email suggests previous errors in handling member information or documentation.  
+
+Behavioral issues identified
+
+• The agent interjected while the member was explaining her query, disrupting the flow of communication.  
+• Insufficient active listening to fully understand the member’s issue before responding.  
+• Failure to verify member details shows a lack of adherence to standard call protocols.  
+
+Action Required
+
+• Provide training on accurate and comprehensive note-taking to ensure documentation matches call content and actions taken.  
+• Reinforce the importance of member verification and active listening skills during calls to improve service quality.  
+
+Overall impression of the call based on the provided notes
+
+The call demonstrated significant areas for improvement, particularly in communication skills and adherence to process protocols. The agent did not verify member details or listen attentively, which led to interruptions and repeated questioning. Additionally, the notes were incomplete and did not reflect the resolution steps, risking continuity issues. Addressing these gaps through targeted training and process reinforcement will enhance call quality and member experience.</p>","9/8/2025","9/8/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 4:30 AM","Raphael Mnisi"
+,"0","
+Call from the pharmacy requesting authorization of the Dexilant 60mg. Agent requested documents.
+
+Please remember to verify the member DOB/ID number with the provider, mention disclaimer, log call on MIP and DMP, offer further assistance and issue a call reference.",,"9/8/2025","9/8/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 4:24 AM","Raphael Mnisi"
+,"0","
+Call from the pharmacy requesting authorization of the Dexilant 60mg. Agent requested documents.
+
+Please remember to verify the member DOB/ID number with the provider, mention disclaimer, log call on MIP and DMP, offer further assistance and issue a call reference.",,"9/8/2025","9/8/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 3:50 AM","Raphael Mnisi"
+,"0","Call from the pharmacy requesting authorization of the Dexilant 60mg. Agent requested documents.
+
+Please remember to verify the member DOB/ID number with the provider, mention disclaimer, log call on MIP and DMP, offer further assistance and issue a call reference.","Training issues identified
+
+• Agent did not verify the member's DOB/ID number with the provider.  
+• Agent failed to mention the required disclaimer during the call.  
+• Agent did not log the call on MIP and DMP systems as instructed.  
+
+Business process issues identified
+
+• Lack of adherence to the process of verifying member information before proceeding.  
+• Incomplete documentation of the call in the designated systems (MIP and DMP).  
+• No evidence of offering further assistance or issuing a call reference to the caller.  
+
+Behavioral issues identified
+
+• Agent did not follow the full call protocol consistently.  
+• Possible lack of attention to detail in completing all required steps.  
+• Insufficient proactive communication to ensure caller needs were fully addressed.  
+
+Action Required
+
+• Provide refresher training to the agent on call handling protocols including verification, disclaimers, logging, and closing procedures.  
+• Implement monitoring and coaching to ensure compliance with business processes and improve call quality.","9/8/2025","9/8/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 1:45 AM","Raphael Mnisi"
+,"10",,,"9/8/2025","9/8/2025",,,,,,,"0","7.5","2.5","10",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 1:44 AM","Raphael Mnisi"
+,"8",,,"9/8/2025","9/8/2025",,,,,,,"0","7.5",,"8",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 1:38 AM","Raphael Mnisi"
+,"18","Member returning member call regarding maternity registration. Process explained to the member and call transfer to claims department.","1. Call Opening & Member Verification
+
+- The call was initiated by a returning member, indicating prior engagement.
+- Member's purpose for the call (maternity registration) was identified early.
+- No explicit mention of member verification steps in the summary.
+
+2. Member Engagement & Education
+
+- The process of maternity registration was explained to the member.
+- Engagement appears to be informative and straightforward.
+- No details on member questions or concerns addressed.
+
+3. Information Gathering & Active Listening
+
+- Limited information on whether additional member information was gathered.
+- No indication of active listening techniques or member feedback.
+- Summary does not specify probing or clarifying questions.
+
+4. System Usage & Documentation
+
+- Call transfer to claims department was executed, indicating system navigation.
+- No mention of documentation of the call or member details.
+- Lack of detail on use of system tools for member support.
+
+5. Clinical Judgement & Escalation
+
+- Call was appropriately transferred to claims department, showing correct escalation.
+- No clinical judgement details provided.
+- No indication of clinical advice or intervention during the call.
+
+6. Compliance & Risk
+
+- No explicit mention of compliance with SOPs or risk management.
+- Member verification process not detailed, which is a compliance consideration.
+- No risk factors or concerns noted in the summary.
+
+7. Communication Style & Empathy
+
+- Communication appears clear and process-oriented.
+- No explicit mention of empathetic language or tone.
+- Summary does not provide insight into rapport building.
+
+9. Closing & Continuity of Care
+
+- Call was closed with a transfer to the appropriate department.
+- No mention of summarizing next steps or confirming member understanding.
+- Continuity of care ensured by directing member to claims department.
+
+Summary
+
+The call was concise and focused on addressing a returning member's inquiry about maternity registration. The process was explained, and the call was appropriately transferred to the claims department for further assistance. However, the summary lacks detail on member verification, active listening, documentation, and empathetic communication. These areas may benefit from additional training to ensure full compliance with SOPs and enhance member experience. Overall, the call appears compliant in terms of escalation but could improve in engagement and documentation practices.","9/8/2025","9/8/2025",,,,,,"5","5","7.5","2.5","10","1.25","1.25",,,"3",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 1:30 AM","Raphael Mnisi"
+"Raphael Mnisi","0","Documents received for maternity registration. Pathology outstanding. Member mentioned that he is already on the chronic ART programme and Dr usually sends her results. Pathology on DM system is outstanding latest VL load. Agent to register the member and send benefit documents whilst awaiting updated pathology.","1. Call Opening & Member Verification
+
+- The call summary does not explicitly mention the call opening or member verification process.
+- It is unclear if the agent confirmed the member’s identity before proceeding.
+- Verification steps should be clearly documented to ensure compliance with SOPs.
+
+2. Member Engagement & Education
+
+- The agent acknowledged the member’s current participation in the chronic ART programme.
+- There is no indication that the agent provided additional education or information about the maternity registration process or pathology requirements.
+- Opportunity to enhance member understanding of next steps and importance of updated pathology.
+
+3. Information Gathering & Active Listening
+
+- The agent identified that pathology results are outstanding and noted the member’s mention of usual doctor communication.
+- The summary reflects some active listening by capturing relevant clinical details (e.g., chronic ART programme, VL load).
+- However, it is unclear if the agent probed further for additional relevant information or member concerns.
+
+4. System Usage & Documentation
+
+- The agent used the DM system to check pathology status and noted outstanding VL load.
+- Documentation includes registering the member and noting the need to send benefit documents.
+- Clear documentation of actions taken and pending items is evident, supporting continuity of care.
+
+5. Clinical Judgement & Escalation
+
+- The agent recognized the clinical need for updated pathology results before proceeding.
+- There is no mention of escalation or consultation with clinical staff despite outstanding pathology.
+- Training may be needed to reinforce when to escalate or seek clinical input.
+
+6. Compliance & Risk
+
+- The agent followed SOP by registering the member and sending benefit documents while awaiting pathology.
+- No compliance breaches are evident from the summary.
+- Risk is mitigated by acknowledging outstanding pathology and not proceeding without it.
+
+7. Communication Style & Empathy
+
+- The summary does not provide details on the agent’s tone or empathetic communication.
+- Member’s concerns about pathology and chronic ART programme were acknowledged.
+- Opportunity to improve empathetic engagement and reassurance during the call.
+
+9. Closing & Continuity of Care
+
+- The agent planned to send benefit documents to the member, supporting continuity.
+- There is no explicit mention of summarizing the call or confirming next steps with the member.
+- Closing could be strengthened by confirming member understanding and outlining follow-up actions.
+
+Summary
+
+The call demonstrates adequate system usage and documentation with appropriate recognition of outstanding pathology and member’s chronic ART status. However, there are gaps in explicit member verification, detailed member education, and clear escalation protocols. Communication could benefit from enhanced empathy and clearer closing statements to ensure member understanding and continuity of care. Training should focus on verification procedures, escalation criteria, and communication skills to improve overall call quality and compliance with SOPs.","9/8/2025","9/8/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 1:29 AM","Raphael Mnisi"
+"Raphael Mnisi","10","Rebecca from the Dr's rooms called to confirm maternity benefits. Agent confirmed that the member is already registered on the maternity program and explained the added benefits.","1. Call Opening & Member Verification
+
+- The call was initiated by Rebecca from the doctor's rooms, indicating a clear identification of the caller.
+- The agent confirmed the member's registration status on the maternity program, demonstrating member verification.
+- There is no mention of additional verification steps such as confirming personal details, which may be a point to review.
+
+2. Member Engagement & Education
+
+- The agent explained the added maternity benefits to the caller, showing an effort to educate.
+- The summary does not indicate if the agent engaged the member with questions or checked for understanding.
+- Opportunities may exist to enhance engagement by confirming the member’s needs or concerns.
+
+3. Information Gathering & Active Listening
+
+- The agent confirmed the member’s registration status, indicating some information gathering.
+- There is no detail on whether the agent asked clarifying questions or listened actively to any concerns.
+- Training could focus on improving probing and active listening skills to better understand member needs.
+
+4. System Usage & Documentation
+
+- The agent accessed the system to verify the member’s registration on the maternity program.
+- There is no information on whether the agent documented the call details or benefits explained.
+- Emphasis on thorough documentation and system usage could be reinforced.
+
+5. Clinical Judgement & Escalation
+
+- The call involved confirming benefits, with no clinical issues raised or escalated.
+- No indication of clinical judgement being applied or need for escalation.
+- Training could remind agents to identify and escalate clinical concerns if they arise.
+
+6. Compliance & Risk
+
+- The agent confirmed member information and benefits, aligning with standard procedures.
+- No compliance issues or risks are evident from the summary.
+- Continued adherence to SOPs should be maintained.
+
+7. Communication Style & Empathy
+
+- The agent provided clear information about the maternity program benefits.
+- The summary does not specify tone or empathy demonstrated during the call.
+- Training could include enhancing empathetic communication and rapport building.
+
+9. Closing & Continuity of Care
+
+- The summary does not detail how the call was closed or if next steps were discussed.
+- There is no mention of confirming member understanding or providing contact information for follow-up.
+- Emphasis on effective call closure and continuity of care is recommended.
+
+Summary
+
+The call was concise and focused on confirming the member’s registration and explaining maternity benefits. The agent demonstrated basic verification and information provision aligned with SOPs. However, the summary lacks detail on member engagement, active listening, documentation, and call closure, indicating potential areas for training enhancement. Overall, the call appears compliant but could benefit from improved communication techniques and thorough documentation to ensure quality and continuity of care.","9/8/2025","9/9/2025",,"Post Call",,,,,"0","7.5","2.5","10",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/8/2025 1:29 AM","Raphael Mnisi"
+"Mahlodi Tema","94","""Training issues identified
+
+• Disclaimer not mentioned at the initial stage of the call  
+• Unnecessary confirmation of member’s ID number, email address, and contact number instead of verifying dependent code and date of birth  
+• Making comments or jokes that may offend the customer  
+
+Business process issues identified
+
+• Lack of clarity on compulsory verification details during service provider calls  
+• Inconsistent adherence to authorization approval procedures (e.g., referencing auth number)  
+• No explicit mention of process for handling dependent scan requests  
+
+Behavioral issues identified
+
+• Making comments or jokes that may offend the customer  
+• Lack of professionalism in communication tone  
+• Insufficient attention to customer sensitivity during the call  
+
+Action Required
+
+• Provide training on proper call opening protocols including disclaimers and verification steps  
+• Reinforce guidelines on professional communication and avoiding inappropriate comments or jokes""
+","Overall Impression of the call based on the notes
+
+The call exhibited several areas needing improvement, particularly in adherence to training protocols, business processes, and professional behavior. There were lapses in proper verification procedures, inconsistent application of authorization processes, and a lack of clarity in handling specific requests. Additionally, the communication style included inappropriate comments that could offend customers, indicating a need for enhanced professionalism and sensitivity.
+
+Training issues identified
+
+• Disclaimer not mentioned at the initial stage of the call  
+• Unnecessary confirmation of member’s ID number, email address, and contact number instead of verifying dependent code and date of birth  
+• Making comments or jokes that may offend the customer  
+
+Business process issues identified
+
+• Lack of clarity on compulsory verification details during service provider calls  
+• Inconsistent adherence to authorization approval procedures (e.g., referencing auth number)  
+• No explicit mention of process for handling dependent scan requests  
+
+Behavioral issues identified
+
+• Making comments or jokes that may offend the customer  
+• Lack of professionalism in communication tone  
+• Insufficient attention to customer sensitivity during the call  
+
+Action Required
+
+• Provide training on proper call opening protocols including disclaimers and verification steps  
+• Reinforce guidelines on professional communication and avoiding inappropriate comments or jokes","9/2/2025","9/8/2025","04;22","Post Call","Chronic registration","Offered","216787-00","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"9/8/2025 12:27 AM","Phumeza Buzani"
+,"0","Member is following up on a specialist auth referral form - specialist auth form not received. Resent to the members correct email address.
+Notes not recorded correctly - does not state the action you have taken to resolve the query. Notes does not correspond to what was discussed telephonically and does not ensure continuity of the flow.
+
+Verification of the members details not done and interjects while the member is explaining her query. Listen to the member attentively to gather all the information so that you don't have to ask questions the member again...
+",,"7/16/2025","7/23/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/4/2025 3:04 AM","Raphael Mnisi"
+,"0",,,"9/4/2025","9/4/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/4/2025 3:01 AM","Raphael Mnisi"
+"Raphael Mnisi","0",,,"9/4/2025","9/4/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/4/2025 2:51 AM","Raphael Mnisi"
+"Raphael Mnisi","0",,,"9/3/2025","9/3/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/3/2025 7:01 AM","Raphael Mnisi"
+"Raphael Mnisi","0",,,"9/3/2025","9/3/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/3/2025 6:58 AM","Raphael Mnisi"
+"Raphael Mnisi","0",,,"9/3/2025","9/3/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/3/2025 6:56 AM","Raphael Mnisi"
+"Raphael Mnisi","0",,,"9/3/2025","9/3/2025",,,,,,,"0",,,"0",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"9/3/2025 6:55 AM","Raphael Mnisi"
+"Iantharan Ramadoo","95","Medication rejecting due to the 26 day rule. Requested Welcome at Mediscor to assist.",,"8/25/2025","8/29/2025","04:08","Post Call","Medication rejection","N/A","236291-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"8/29/2025 6:04 AM","Phumeza Buzani"
+"Germinah Rakoma","95","Call from the Dr regarding member's rejecting medication. Agent could not see a rejection and informed the Dr that when the member is at the pharmacy they should request them to call Umvuzo pharmacy department.
+
+Please request the caller to verify DOB/ID number of the member instead calling it out to them and verify with the caller if they said yes they would like the reference number before dropping the call.",,"8/25/2025","8/29/2025","06:15","Post Call","Medication rejection","Offered","180958-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"8/29/2025 5:49 AM","Phumeza Buzani"
+"Mahlodi Tema","94","Call from member to query auth for PPI medication. Agent explained item is no longer on formulary ,however treatment will be loaded until end of the year while waiting for Gastroscopy results.
+
+Please remember to mention disclaimer.",,"8/26/2025","8/29/2025","04:03","Post Call","Medication rejection","445486172","155457-0","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"8/29/2025 4:30 AM","Phumeza Buzani"
+"Iantharan Ramadoo","81","Call received from the main member following up on Lupus medication for dependent 10. Agent informed member that the medication for her husband is not in formulary and has been sent through for review for exceptional funding.
+
+Please remember to verify member ID/DOB, mention disclaimer ""calls are recorded..."", offer further assistance and issue a reference number.",,"8/25/2025","8/21/2025","12:50","Post Call","Medication rejection","Not offered","211543-10","5","5","0","2.5","3","1.25","1.25","1.25","0","4","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","0","0","2.5","2.5","5","5","5",,"8/25/2025 1:04 AM","Phumeza Buzani"
+"Germinah Rakoma","95","Member complaining that his medication has not been delivered. Agent informed member of previous conversation where he promised to forward script and pathology. Member promised to resend.",,"8/22/2025","8/15/2025","12:18","Post Call","Medication rejection","445477990","181847-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"8/22/2025 5:36 AM","Phumeza Buzani"
+"Mahlodi Tema","91","Member wanted to confirm if her treatment is authorized , auth in place but member has levies.
+
+Please remember to mention disclaimer ""calls are recorded..."" and offer further assistance.",,"8/21/2025","8/22/2025","18:34","Post Call","Medication rejection","445481113","222324-10","5","5","7.5","2.5","10","1.25","1.25","1.25","0","4","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","0","2.5","2.5","2.5","8","5","5",,"8/22/2025 2:16 AM","Phumeza Buzani"
+"Germinah Rakoma","84","Main member called in requesting authorization for his son's medication for Autism. Agent informed the member that the child needs to be registered with Mediscor. Call transferred to client services for assistance with GP consultations.
+
+However, agent missed issuing the member with Mediscor contact details, no notes on the DMP system for the inquiry. ",,"8/15/2025","8/11/2025","23:18","Post Call","Medication rejection","445470032","201751-0","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","0","0","2.5","2.5","5","5","5","3","3","3","3","3","3","0","0","3","3","24","10","10","2.5","2.5","2.5","2.5","10","5","5",,"8/15/2025 3:13 AM","Phumeza Buzani"
+"Mahlodi Tema","0","Member's medication is rejecting. Pathology outstanding. Member sent results to the incorrect email. Correct email provided.
+
+Call not logged, agent offered name and surname as reference number.",,"8/15/2025","8/12/2025","09:38","Post Call","Medication rejection","Offered","231905-0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0",,"8/15/2025 1:22 AM","Phumeza Buzani"
+"Iantharan Ramadoo","0","Call from the pharmacy requesting authorization of the Dexilant 60mg. Agent requested documents.
+
+Please remember to verify the member DOB/ID number with the provider, mention disclaimer, log call on MIP and DMP, offer further assistance and issue a call reference.",,"8/12/2025","8/7/2025","03:14","Post Call","Medication rejection","Not offered","100020-10","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0",,"8/12/2025 4:57 AM","Phumeza Buzani"
+"Phumeza Buzani","3","test",,"8/3/2025","8/3/2025","01:00","Post Call","Chronic registration","123456","123456",,"0",,"2.5","3",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"8/3/2025 11:08 PM","Phumeza Buzani"
+"Phumeza Buzani","13","test",,"8/3/2025","8/3/2025","01:00","Post Call","Chronic registration","123456","654321","5","5","7.5",,"8",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"8/3/2025 11:01 PM","Phumeza Buzani"
+"Phumeza Buzani","8","test",,"8/1/2025","8/1/2025","00:00","Post Call","Medication rejection","654321","123456","5","5",,"2.5","3",,,,,"0",,,"0",,"0",,,"0",,"0",,,,,,,,,,,"0",,"0",,,,,"0","0",,,"8/1/2025 6:40 AM","Phumeza Buzani"
+"Phumeza Buzani","95",,,"7/16/2025","7/23/2025","1:00","Post Call","Medication rejection","123","456","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"7/23/2025 1:05 AM","Phumeza Buzani"
+"Phumeza Buzani","95",,,"7/16/2025","7/23/2025","1:00","Post Call","Medication rejection","123","456","5","5","7.5","2.5","10","1.25","1.25","1.25","1.25","5","2.5","2.5","5","5","5","2.5","2.5","5","5","5","3","3","3","3","3","3","3","3","3","3","30","10","10","2.5","2.5","2.5","2.5","10","5","5",,"7/23/2025 1:05 AM","Phumeza Buzani"
