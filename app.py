@@ -14,21 +14,163 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# Enhanced CSS for professional business UI
 st.markdown("""
 <style>
+    /* Main header styling */
     .main-header {
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #1f77b4;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #1e3a8a;
         text-align: center;
         margin-bottom: 2rem;
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
+
+    /* Professional metric cards */
     .metric-card {
-        background-color: #f0f2f6;
+        background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        border-left: 4px solid #3b82f6;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .metric-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Success and warning cards */
+    .success-card {
+        background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid #bbf7d0;
+        border-left: 4px solid #22c55e;
+    }
+
+    .warning-card {
+        background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid #fde68a;
+        border-left: 4px solid #f59e0b;
+    }
+
+    .alert-card {
+        background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid #fecaca;
+        border-left: 4px solid #ef4444;
+    }
+
+    /* Section headers */
+    .section-header {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #e2e8f0;
+    }
+
+    /* KPI cards with better styling */
+    .kpi-container {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+        flex: 1;
+        background: white;
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .kpi-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1e3a8a;
+        margin-bottom: 0.25rem;
+    }
+
+    .kpi-label {
+        font-size: 0.875rem;
+        color: #64748b;
+        font-weight: 500;
+    }
+
+    .kpi-delta {
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+    .kpi-delta.positive {
+        color: #22c55e;
+    }
+
+    .kpi-delta.negative {
+        color: #ef4444;
+    }
+
+    /* Chart containers */
+    .chart-container {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        margin-bottom: 1.5rem;
+    }
+
+    /* Professional table styling */
+    .dataframe {
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    /* Button styling */
+    .stButton>button {
+        background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        transition: all 0.2s ease;
+    }
+
+    .stButton>button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    }
+
+    /* Sidebar styling */
+    .sidebar-content {
+        background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
         padding: 1rem;
         border-radius: 0.5rem;
-        border-left: 0.25rem solid #1f77b4;
+    }
+
+    /* Footer styling */
+    .footer {
+        text-align: center;
+        color: #64748b;
+        font-size: 0.875rem;
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid #e2e8f0;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -147,12 +289,17 @@ combined_processed = process_data(combined_df)
 # Main header
 st.markdown('<h1 class="main-header">📊 V1 Pharma Call Center Quality Control</h1>', unsafe_allow_html=True)
 
-# Sidebar
-st.sidebar.title("🎛️ Controls")
+# Professional Sidebar
+st.sidebar.markdown("""
+<div class="sidebar-content">
+    <h3 style="color: #1e3a8a; margin-bottom: 1rem;">🎛️ Dashboard Controls</h3>
+</div>
+""", unsafe_allow_html=True)
 
 dataset_option = st.sidebar.selectbox(
-    "Dataset",
-    ["Combined", "Clinical", "Admin"]
+    "📊 Dataset Selection",
+    ["Combined", "Clinical", "Admin"],
+    help="Choose which dataset to analyze"
 )
 
 if dataset_option == "Clinical":
@@ -162,12 +309,14 @@ elif dataset_option == "Admin":
 else:
     df = combined_processed
 
-# Filters
+# Filters Section
+st.sidebar.markdown("### 🔍 Filters")
+
 if not df['Date of the call'].isna().all():
     min_date = df['Date of the call'].min().date()
     max_date = df['Date of the call'].max().date()
     date_range = st.sidebar.date_input(
-        "Date Range",
+        "📅 Date Range",
         [min_date, max_date],
         min_value=min_date,
         max_value=max_date
@@ -177,44 +326,90 @@ if not df['Date of the call'].isna().all():
 
 agents = sorted(df['Agent name'].unique())
 selected_agents = st.sidebar.multiselect(
-    "Agents",
+    "👥 Select Agents",
     agents,
-    default=agents
+    default=agents[:5] if len(agents) > 5 else agents,  # Default to first 5 agents
+    help="Filter by specific agents"
 )
 if selected_agents:
     df = df[df['Agent name'].isin(selected_agents)]
 
-# Metrics
+# Quick Stats in Sidebar
+st.sidebar.markdown("### 📈 Quick Stats")
+st.sidebar.metric("Filtered Calls", len(df))
+st.sidebar.metric("Selected Agents", len(selected_agents) if selected_agents else len(agents))
+
+# Professional KPI Dashboard
+st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.metric("Total Calls", len(df))
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">{:,}</div>
+        <div class="kpi-label">Total Calls</div>
+    </div>
+    """.format(len(df)), unsafe_allow_html=True)
 
 with col2:
     avg_score = df['Grand Total'].mean()
-    st.metric("Average Score", f"{avg_score:.1f}/100")
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">{:.1f}/100</div>
+        <div class="kpi-label">Average Score</div>
+    </div>
+    """.format(avg_score), unsafe_allow_html=True)
 
 with col3:
-    st.metric("Active Agents", df['Agent name'].nunique())
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">{}</div>
+        <div class="kpi-label">Active Agents</div>
+    </div>
+    """.format(df['Agent name'].nunique()), unsafe_allow_html=True)
 
 with col4:
     excellent_pct = (df['Performance Category'] == 'Excellent').mean() * 100
-    st.metric("Excellent Rate", f"{excellent_pct:.1f}%")
+    st.markdown("""
+    <div class="kpi-card">
+        <div class="kpi-value">{:.1f}%</div>
+        <div class="kpi-label">Excellent Rate</div>
+    </div>
+    """.format(excellent_pct), unsafe_allow_html=True)
+
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Performance Distribution
-st.header("📈 Performance Overview")
+st.markdown('<h2 class="section-header">📈 Performance Overview</h2>', unsafe_allow_html=True)
 
+st.markdown('<div class="chart-container">', unsafe_allow_html=True)
 perf_counts = df['Performance Category'].value_counts()
-fig_perf = px.pie(
-    values=perf_counts.values,
-    names=perf_counts.index,
-    title="Performance Distribution",
-    color_discrete_sequence=px.colors.qualitative.Set3
+
+# Create a more professional bar chart instead of pie
+fig_perf = px.bar(
+    perf_counts,
+    title="Call Performance Distribution",
+    labels={'value': 'Number of Calls', 'index': 'Performance Category'},
+    color=perf_counts.index,
+    color_discrete_map={
+        'Excellent': '#22c55e',
+        'Good': '#3b82f6',
+        'Average': '#f59e0b',
+        'Needs Improvement': '#ef4444'
+    }
+)
+fig_perf.update_layout(
+    showlegend=False,
+    plot_bgcolor='white',
+    paper_bgcolor='white'
 )
 st.plotly_chart(fig_perf, use_container_width=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Agent Performance
+st.markdown('<div class="chart-container">', unsafe_allow_html=True)
 agent_stats = df.groupby('Agent name')['Grand Total'].agg(['mean', 'count']).sort_values('mean', ascending=True)
+
 fig_agents = px.bar(
     agent_stats,
     x='mean',
@@ -223,23 +418,46 @@ fig_agents = px.bar(
     title="Agent Performance Ranking",
     labels={'mean': 'Average Score'},
     color='mean',
-    color_continuous_scale='RdYlGn'
+    color_continuous_scale=['#ef4444', '#f59e0b', '#3b82f6', '#22c55e']
 )
-fig_agents.add_vline(x=df['Grand Total'].mean(), line_dash="dash", line_color="red")
+fig_agents.add_vline(
+    x=df['Grand Total'].mean(),
+    line_dash="dash",
+    line_color="#6b7280",
+    annotation_text="Overall Average"
+)
+fig_agents.update_layout(
+    plot_bgcolor='white',
+    paper_bgcolor='white',
+    showlegend=False
+)
 st.plotly_chart(fig_agents, use_container_width=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Sentiment Analysis
-st.header("💭 Sentiment Analysis")
+st.markdown('<h2 class="section-header">💭 Sentiment Analysis</h2>', unsafe_allow_html=True)
 
+st.markdown('<div class="chart-container">', unsafe_allow_html=True)
 summary_sentiment = df['Summary Sentiment'].value_counts()
+
 fig_sentiment = px.bar(
     summary_sentiment,
-    title="Call Summary Sentiment",
-    labels={'value': 'Calls', 'index': 'Sentiment'},
+    title="Call Summary Sentiment Distribution",
+    labels={'value': 'Number of Calls', 'index': 'Sentiment'},
     color=summary_sentiment.index,
-    color_discrete_map={'Positive': 'green', 'Neutral': 'blue', 'Negative': 'red'}
+    color_discrete_map={
+        'Positive': '#22c55e',
+        'Neutral': '#6b7280',
+        'Negative': '#ef4444'
+    }
+)
+fig_sentiment.update_layout(
+    plot_bgcolor='white',
+    paper_bgcolor='white',
+    showlegend=False
 )
 st.plotly_chart(fig_sentiment, use_container_width=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Training Issues
 st.header("🎓 Training Issues")
@@ -612,7 +830,19 @@ recommendations.extend([
 for rec in recommendations:
     st.info(rec)
 
-# Footer
-st.markdown("---")
-st.markdown("**V1 Pharma Quality Control System** - Advanced PQR/PSR analytics for pharmaceutical call center excellence")
-st.markdown("*PQR (Product Quality Ratio) & PSR (Process Success Rate) drive medication authorization and process optimization*")
+# Professional Footer
+st.markdown("""
+<div class="footer">
+    <hr style="border: none; border-top: 1px solid #e2e8f0; margin-bottom: 1rem;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap;">
+        <div>
+            <strong>V1 Pharma Quality Control System</strong><br>
+            Advanced PQR/PSR Analytics for Pharmaceutical Excellence
+        </div>
+        <div style="color: #9ca3af;">
+            PQR (Product Quality Ratio) & PSR (Process Success Rate)<br>
+            Driving Medication Authorization & Process Optimization
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
