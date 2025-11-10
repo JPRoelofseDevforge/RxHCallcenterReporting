@@ -581,8 +581,16 @@ with col1:
         color=agent_workload.values,
         color_continuous_scale='Blues'
     )
-    fig_workload.add_hline(y=avg_workload, line_dash="dash", line_color="red",
+    fig_workload.add_hline(y=avg_workload, line_dash="dash", line_color="#6b7280",
                           annotation_text=f"Average: {avg_workload:.1f}")
+    fig_workload.update_layout(
+        plot_bgcolor='white',
+        paper_bgcolor='white',
+        font=dict(color='#1e293b'),
+        title_font=dict(color='#1e293b'),
+        xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+        yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
+    )
     st.plotly_chart(fig_workload, use_container_width=True)
 
 with col2:
@@ -599,8 +607,16 @@ with col2:
         title="Performance vs Call Volume",
         labels={'Grand Total': 'Average Score', 'Call Volume': 'Number of Calls'},
         color='Grand Total',
-        color_continuous_scale='RdYlGn',
+        color_continuous_scale=['#ef4444', '#f59e0b', '#3b82f6', '#22c55e'],
         size='Call Volume'
+    )
+    fig_perf_volume.update_layout(
+        plot_bgcolor='white',
+        paper_bgcolor='white',
+        font=dict(color='#1e293b'),
+        title_font=dict(color='#1e293b'),
+        xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+        yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
     )
     st.plotly_chart(fig_perf_volume, use_container_width=True)
 
