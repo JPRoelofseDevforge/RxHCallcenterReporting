@@ -131,6 +131,25 @@ st.markdown("""
         border: 1px solid #e5e7eb;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
         margin-bottom: 1.5rem;
+        color: #1e293b !important;
+    }
+
+    /* Ensure all text in chart containers is dark */
+    .chart-container * {
+        color: #1e293b !important;
+    }
+
+    /* Plotly chart text override */
+    .js-plotly-plot .plotly .modebar {
+        color: #1e293b !important;
+    }
+
+    .js-plotly-plot .plotly text {
+        fill: #1e293b !important;
+    }
+
+    .js-plotly-plot .plotly .legend text {
+        fill: #1e293b !important;
     }
 
     /* Professional table styling */
@@ -401,7 +420,11 @@ fig_perf = px.bar(
 fig_perf.update_layout(
     showlegend=False,
     plot_bgcolor='white',
-    paper_bgcolor='white'
+    paper_bgcolor='white',
+    font=dict(color='#1e293b'),
+    title_font=dict(color='#1e293b'),
+    xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+    yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
 )
 st.plotly_chart(fig_perf, use_container_width=True)
 st.markdown('</div>', unsafe_allow_html=True)
@@ -429,7 +452,11 @@ fig_agents.add_vline(
 fig_agents.update_layout(
     plot_bgcolor='white',
     paper_bgcolor='white',
-    showlegend=False
+    showlegend=False,
+    font=dict(color='#1e293b'),
+    title_font=dict(color='#1e293b'),
+    xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+    yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
 )
 st.plotly_chart(fig_agents, use_container_width=True)
 st.markdown('</div>', unsafe_allow_html=True)
@@ -454,7 +481,11 @@ fig_sentiment = px.bar(
 fig_sentiment.update_layout(
     plot_bgcolor='white',
     paper_bgcolor='white',
-    showlegend=False
+    showlegend=False,
+    font=dict(color='#1e293b'),
+    title_font=dict(color='#1e293b'),
+    xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+    yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
 )
 st.plotly_chart(fig_sentiment, use_container_width=True)
 st.markdown('</div>', unsafe_allow_html=True)
@@ -727,7 +758,16 @@ if len(clinical_calls) > 0:
             y=['PQR_Estimate', 'PSR_Estimate'],
             title="PQR/PSR Quality Trends Over Time",
             labels={'value': 'Quality Score (%)', 'Month': 'Month'},
-            markers=True
+            markers=True,
+            color_discrete_map={'PQR_Estimate': '#3b82f6', 'PSR_Estimate': '#22c55e'}
+        )
+        fig_quality_trend.update_layout(
+            plot_bgcolor='white',
+            paper_bgcolor='white',
+            font=dict(color='#1e293b'),
+            title_font=dict(color='#1e293b'),
+            xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+            yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
         )
         st.plotly_chart(fig_quality_trend, use_container_width=True)
 
@@ -756,7 +796,16 @@ if len(clinical_calls) > 0:
         title="Agent Quality Index (PQR + PSR)",
         labels={'Quality_Index': 'Quality Index (%)'},
         color='Quality_Index',
-        color_continuous_scale='RdYlGn'
+        color_continuous_scale=['#ef4444', '#f59e0b', '#3b82f6', '#22c55e']
+    )
+    fig_agent_quality.update_layout(
+        plot_bgcolor='white',
+        paper_bgcolor='white',
+        showlegend=False,
+        font=dict(color='#1e293b'),
+        title_font=dict(color='#1e293b'),
+        xaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b')),
+        yaxis=dict(title_font=dict(color='#1e293b'), tickfont=dict(color='#1e293b'))
     )
     st.plotly_chart(fig_agent_quality, use_container_width=True)
 
