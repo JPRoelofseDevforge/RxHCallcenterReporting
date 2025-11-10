@@ -282,6 +282,184 @@ st.header("📋 Detailed Call Analysis")
 display_df = df[['Agent name', 'Date of the call', 'Query type', 'Grand Total', 'Performance Category', 'Summary Sentiment']].head(50)
 st.dataframe(display_df, use_container_width=True)
 
+# Business Intelligence Section
+st.header("💼 Business Intelligence & Decision Support")
+
+# Cost-Benefit Analysis
+st.subheader("💰 Quality Improvement ROI Analysis")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    # Training Investment Calculator
+    st.markdown("### Training Investment")
+    avg_calls_per_agent = len(df) / df['Agent name'].nunique()
+    training_cost_per_agent = st.number_input("Training Cost per Agent (R)", value=5000, min_value=0)
+    total_training_investment = training_cost_per_agent * df['Agent name'].nunique()
+    st.metric("Total Training Investment", f"R{total_training_investment:,.0f}")
+
+with col2:
+    # Quality Improvement Projection
+    current_avg_score = df['Grand Total'].mean()
+    projected_improvement = st.slider("Expected Score Improvement (%)", 5, 25, 15)
+    projected_avg_score = current_avg_score * (1 + projected_improvement/100)
+    st.metric("Projected Average Score", f"{projected_avg_score:.1f}/100", f"+{projected_improvement}%")
+
+with col3:
+    # ROI Calculation
+    calls_per_month = len(df) * 2  # Assuming 2-month data period
+    cost_per_call = st.number_input("Cost per Call (R)", value=50, min_value=0)
+    monthly_call_cost = calls_per_month * cost_per_call
+    quality_improvement_value = monthly_call_cost * (projected_improvement/100)
+    roi = (quality_improvement_value / total_training_investment) * 100 if total_training_investment > 0 else 0
+    st.metric("Projected ROI", f"{roi:.1f}%", "Quality Improvement Value")
+
+# Workforce Optimization
+st.subheader("👥 Workforce Optimization Insights")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    # Agent Utilization Analysis
+    agent_workload = df.groupby('Agent name').size()
+    avg_workload = agent_workload.mean()
+    workload_std = agent_workload.std()
+
+    fig_workload = px.bar(
+        agent_workload.sort_values(ascending=True),
+        title="Agent Call Volume Distribution",
+        labels={'value': 'Number of Calls', 'Agent name': 'Agent'},
+        color=agent_workload.values,
+        color_continuous_scale='Blues'
+    )
+    fig_workload.add_hline(y=avg_workload, line_dash="dash", line_color="red",
+                          annotation_text=f"Average: {avg_workload:.1f}")
+    st.plotly_chart(fig_workload, use_container_width=True)
+
+with col2:
+    # Performance vs Volume Analysis
+    agent_perf_volume = df.groupby('Agent name').agg({
+        'Grand Total': 'mean',
+        'Agent name': 'size'
+    }).rename(columns={'Agent name': 'Call Volume'})
+
+    fig_perf_volume = px.scatter(
+        agent_perf_volume,
+        x='Call Volume',
+        y='Grand Total',
+        title="Performance vs Call Volume",
+        labels={'Grand Total': 'Average Score', 'Call Volume': 'Number of Calls'},
+        color='Grand Total',
+        color_continuous_scale='RdYlGn',
+        size='Call Volume'
+    )
+    st.plotly_chart(fig_perf_volume, use_container_width=True)
+
+# Predictive Analytics
+st.subheader("🔮 Predictive Quality Insights")
+
+# Risk Assessment
+risk_factors = []
+
+# High volume low performance agents
+high_volume_threshold = agent_workload.quantile(0.75)
+low_perf_threshold = df['Grand Total'].mean() - df['Grand Total'].std()
+
+high_volume_low_perf = agent_perf_volume[
+    (agent_perf_volume['Call Volume'] >= high_volume_threshold) &
+    (agent_perf_volume['Grand Total'] <= low_perf_threshold)
+]
+
+if len(high_volume_low_perf) > 0:
+    risk_factors.append(f"🚨 **High-Risk Agents**: {len(high_volume_low_perf)} agents handling high volume but low performance")
+
+# Training backlog
+training_issues_count = df['Training Issues'].apply(len).sum()
+if training_issues_count > len(df) * 0.2:
+    risk_factors.append(f"📚 **Training Backlog**: {training_issues_count} training issues identified across {len(df)} calls")
+
+# Sentiment deterioration
+negative_calls = (df['Summary Sentiment'] == 'Negative').sum()
+if negative_calls > len(df) * 0.15:
+    risk_factors.append(f"😞 **Customer Satisfaction Risk**: {negative_calls} negative sentiment calls ({negative_calls/len(df)*100:.1f}%)")
+
+if risk_factors:
+    st.error("### Critical Business Risks Identified")
+    for risk in risk_factors:
+        st.write(risk)
+else:
+    st.success("✅ No critical business risks detected")
+
+# Strategic Recommendations
+st.subheader("🎯 Strategic Recommendations")
+
+recommendations = []
+
+# Based on performance analysis
+top_performer = agent_perf_volume['Grand Total'].idxmax()
+top_score = agent_perf_volume['Grand Total'].max()
+recommendations.append(f"🏆 **Best Practice Replication**: Study {top_performer}'s approach (Score: {top_score:.1f}) and create training modules")
+
+# Based on training needs
+if training_issues_count > 0:
+    top_issue = pd.Series([issue for issues in df['Training Issues'] for issue in issues]).value_counts().index[0]
+    recommendations.append(f"🎓 **Priority Training Focus**: Address '{top_issue}' issues affecting {pd.Series([issue for issues in df['Training Issues'] for issue in issues]).value_counts()[0]} calls")
+
+# Based on workload distribution
+workload_cv = workload_std / avg_workload  # Coefficient of variation
+if workload_cv > 0.3:
+    recommendations.append(f"⚖️ **Workload Balancing**: High workload variation (CV: {workload_cv:.2f}) suggests need for better call distribution")
+
+# Based on performance trends
+if not df['Date of the call'].isna().all():
+    recent_performance = df[df['Date of the call'] >= df['Date of the call'].max() - pd.Timedelta(days=30)]['Grand Total'].mean()
+    overall_performance = df['Grand Total'].mean()
+    if recent_performance < overall_performance * 0.95:
+        recommendations.append(f"📉 **Performance Trending Down**: Recent scores ({recent_performance:.1f}) below overall average ({overall_performance:.1f})")
+
+for rec in recommendations:
+    st.info(rec)
+
+# Executive Summary Export
+st.subheader("📊 Executive Summary Report")
+
+if st.button("Generate Executive Summary"):
+    summary_data = {
+        "Metric": [
+            "Total Calls Analyzed",
+            "Average Call Score",
+            "Agents Active",
+            "Excellent Performance Rate",
+            "Training Issues Identified",
+            "Negative Sentiment Calls",
+            "Projected ROI from Training",
+            "High-Risk Agents"
+        ],
+        "Value": [
+            len(df),
+            f"{df['Grand Total'].mean():.1f}/100",
+            df['Agent name'].nunique(),
+            f"{(df['Performance Category'] == 'Excellent').mean()*100:.1f}%",
+            training_issues_count,
+            negative_calls,
+            f"{roi:.1f}%" if roi > 0 else "N/A",
+            len(high_volume_low_perf) if 'high_volume_low_perf' in locals() else 0
+        ]
+    }
+
+    summary_df = pd.DataFrame(summary_data)
+    st.table(summary_df)
+
+    # Download button
+    csv_summary = summary_df.to_csv(index=False)
+    st.download_button(
+        label="Download Executive Summary (CSV)",
+        data=csv_summary,
+        file_name=f"executive_summary_{datetime.now().strftime('%Y%m%d')}.csv",
+        mime="text/csv"
+    )
+
 # Footer
 st.markdown("---")
-st.markdown("**V1 Pharma Quality Control System** - Data-driven insights for call center excellence")
+st.markdown("**V1 Pharma Quality Control System** - Advanced business intelligence for data-driven call center optimization")
+st.markdown("*Transforming call center data into strategic business decisions*")
